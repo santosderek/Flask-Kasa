@@ -1,0 +1,13 @@
+[Unit]
+Description=Flask application to control Kasa Dimmer Switch.
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 "/home/derek/.Flask-Kasa/flaskkasa.py"
+User=derek
+Group=derek
+
+[Install]
+WantedBy=multi-user.target
