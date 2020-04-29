@@ -1,5 +1,5 @@
-# Flask-Kasa                                                                                                                                                
----                                                                                                                                                                                                                                                  
+# Flask-Kasa
+
 ### Purpose                                                                                                                                                                                                                                   
 ***Flask-Kasa*** is a web application that allows the user to change the brightness of a Kasa Smart Dimmer Switch using webhooks from various sources such as, Plex.                                                                                                                                                                                                            
 
