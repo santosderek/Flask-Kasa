@@ -5,7 +5,7 @@ After=network-online.target
 
 [Service]
 Type=simple
-ExecStart=/usr/bin/python3 "/home/derek/.Flask-Kasa/flaskkasa.py"
+ExecStart=/usr/bin/python3 "/home/derek/.flask-kasa/flaskkasa.py"
 User=derek
 Group=derek
 
